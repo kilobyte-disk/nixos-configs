@@ -4,7 +4,7 @@
 {
   imports = 
     [
-      ./hardware-configuration.nix
+      /etc/nixos/hardware-configuration.nix
 
       ./modules/system/core.nix
       ./modules/packages/corepkgs.nix
