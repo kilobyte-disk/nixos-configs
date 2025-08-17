@@ -4,20 +4,20 @@
 {
   imports = 
     [
-      ../hardware-configuration.nix
+      ./lg-hardware.nix
 
-      ./modules/system/core.nix
-      ./modules/packages/corepkgs.nix
+      ../modules/system/core.nix
+      ../modules/packages/corepkgs.nix
 
-      ./modules/packages/media.nix
-      ./modules/packages/desktop.nix
+      ../modules/packages/media.nix
+      ../modules/packages/desktop.nix
 
-      ./modules/hardware/hd8730m.nix
-      ./modules/hardware/intel.nix
+      ../modules/hardware/hd8730m.nix
+      ../modules/hardware/intel.nix
 
-      ./modules/desktops/plasma.nix
+      ../modules/desktops/plasma.nix
       
-      ./users/kilo.nix
+      ../users/kilo.nix
     ];
     
   /* Use systemd-boot */
