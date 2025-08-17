@@ -7,4 +7,13 @@
     git
     gh
   ];
+
+  programs.git = {
+    enable = true;
+    userName = "kilobyte-disk";
+    userEmail = "kinsol.mail@Gmail.com";
+    extraConfig = {
+      init.defaultBranch = "main";
+    };
+  };
 }
