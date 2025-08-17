@@ -10,9 +10,13 @@
 
   programs.git = {
     enable = true;
-    userName = "kilobyte-disk";
-    userEmail = "kinsol.mail@Gmail.com";
-    extraConfig = {
+
+    config = {
+      user = {
+        name = "kilobyte-disk";
+        email = "kinsol.mail@Gmail.com";
+      };
+
       init.defaultBranch = "main";
     };
   };
