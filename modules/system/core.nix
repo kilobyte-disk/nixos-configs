@@ -11,5 +11,5 @@
 
   /* Enable flakes */
   nix.settings.experimental-features = [ "flakes" ];
-};
+}
 
