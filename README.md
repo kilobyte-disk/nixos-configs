@@ -1,10 +1,10 @@
 # nixos-configs
 
-My nixos configurations across my machines.
+My NixOS configurations across my machines.
 Very useful for quickly installing a complete stable system tailored to my liking.
 
 # Installing from nixos installer
-assuming user is root,<br>
+Assuming user is root,<br>
 after running ```nixos-generate-config```,<br>
 ```
 $ git clone https://github.com/kilobyte-disk/nixos-configs.git
@@ -16,5 +16,6 @@ Make sure that ```systems/your_system_name.nix``` has ```system.stateVersion``` 
 <br>
 
 ```
+$ git add .
 $ nixos-install --flake .#your_system_name
 ```
