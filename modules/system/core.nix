@@ -4,8 +4,9 @@
 {
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
+  nixpkgs.config.allowUnfree = true;
+
   time.timeZone = "PST8PDT";
-  i18n.defaultLocale = "en_US.UTF-8";
 
   networking.networkmanager.enable = true;
 
