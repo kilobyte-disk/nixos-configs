@@ -11,6 +11,9 @@
 
       ../modules/packages/media.nix
       ../modules/packages/desktop.nix
+      ../modules/packages/security.nix
+      ../modules/packages/language.nix
+      ../modules/packages/communications.nix
 
       ../modules/hardware/hd8730m.nix
       ../modules/hardware/intel.nix
